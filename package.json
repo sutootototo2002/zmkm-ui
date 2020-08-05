@@ -5,11 +5,14 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lib":"vue-cli-service build --target lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "element-ui": "^2.13.2",
+    "vue": "^2.6.11",
+    "vuedraggable": "^2.24.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.4.0",
